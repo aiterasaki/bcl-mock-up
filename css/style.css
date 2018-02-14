@@ -1,0 +1,183 @@
+/*@charset "UTF-8";*/
+/* -----------------------------------------------------------------------------
+**
+** common
+**
+----------------------------------------------------------------------------- */
+body {
+	background:rgb(255, 255, 240);
+	margin:0;
+}
+
+a, p, h3, span, div, input{
+	color: rgb(124, 252, 0);
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+/* -----------------------------------------------------------------------------
+**
+** headerArea12base ヘッダエリア
+**
+----------------------------------------------------------------------------- */
+/*---------------------------------------------------------- */
+/*  カラム全体調整用
+------------------------------------------------------------ */
+/*ヘッダー*/
+
+#headerNav {
+	width:1000px;
+	padding:0 0 0 0;
+	margin:0 auto;
+}
+
+#searchform {  
+    width: 200px;  
+    background: url(../images/input4.gif) left top no-repeat;   
+    display: block;  
+    height: 24px;  
+    position: relative; 
+}
+
+#keywords  {  
+    width: 600px;
+    height: 50px;
+    position: absolute;  
+    top: 120px;
+    left: 550px; 
+    border: 1px solid #FFF;
+	border-radius: 35px; 
+    font-size: 30px;
+
+}  
+
+input::-webkit-input-placeholder {
+    color: pink;
+    font-size:  20px;
+    text-align: center;
+}
+input:-moz-placeholder {
+    color: pink;
+    font-size:  20px;
+    text-align: center;
+}
+input::-moz-placeholder {
+    color: pink;
+    font-size:  20px;
+    text-align: center;
+}
+input:-ms-input-placeholder {
+    color: pink;
+    font-size:  20px;
+    text-align: center;
+}
+
+/*---------------------------------------------------------- */
+/*  ヘッダナビ最上部 
+------------------------------------------------------------ */
+.logo_box {
+    background: url(logo_bcl.png) no-repeat top;
+    background-size: contain;
+    width: 40%;
+    height: 200px;
+    float: left;
+}
+.header{
+	background-color: #c71585;
+	height: 200px;
+}
+
+
+*+html #headerArea12base #headerNavInner00 .headerNavBox li{no-repeat ;/* IE7 */}
+:root #headerArea12base #headerNavInner00 .headerNavBox li{no-repeat  \0/;  IE9 }
+
+#headerArea12base #headerNavInner00 {
+	padding-top: 25px;
+	float:left;
+	font-size:20px;
+	padding-left:10px;
+	line-height:1.1;
+}
+
+.headerNavBox li{
+	float:left;
+	padding-left:10px;
+	line-height:1.1;
+	padding: 10px;
+}
+
+.headerNavBox {
+	width: 600px;
+}
+/*---------------------------------------------------------- */
+/*  ヘッダナビ3段目
+------------------------------------------------------------ */
+/* ユーザーのカート表示 */
+#cartArea {
+	width:215px;
+	float:right;
+	margin:0 -3px 0 0;
+	height:33px;
+	padding-bottom:6px;
+}
+/* -----------------------------------------------------------------------------
+**
+** contentsArea12base コンテンツエリア
+**
+----------------------------------------------------------------------------- */
+/*---------------------------------------------------------- */
+/*  カラム全体調整用
+------------------------------------------------------------ */
+#contentsArea12base {
+	width:1024px;
+	padding:0 0 20px 0;
+	margin:0 auto;
+	clear:both;
+}
+
+.detail{
+	padding: 20px;
+}
+/* -----------------------------------------------------------------------------
+**
+** footerArea12base フッダエリア
+**
+----------------------------------------------------------------------------- */
+
+#footerAreaNav2Inner {
+	background:none #231815;
+	margin:0 auto 0 auto;
+	padding:20px 0 20px 0;
+	width:1024px;
+}
+
+#footerArea12base #footerAreaNav1 .footerAreaNav1Inner {
+	margin:0 auto 0 auto;
+	padding:0 0 0 0;
+	width:1024px;
+	clear:both;
+}
+#footerAreaNav1 {
+	background:none;
+	padding-top:10px;
+	background: pink;
+    padding-bottom: 10px;
+}
+
+#footerAreaNav1 .footerAreaNav1Column02 {
+	float:left;
+	width:400px;
+}
+
+#footerAreaNav3 {
+	background-color: #c71585;
+
+}
+#footerArea12base #footerAreaNav3Inner {
+	margin:0 auto 0 auto;
+	padding:17px 0 17px 0;
+	width:1024px;
+	text-align:center;
+}
